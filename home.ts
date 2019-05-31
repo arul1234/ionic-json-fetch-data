@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 
-import {Observable} from 'rxjs/Observable';
+//import {Observable} from 'rxjs/Observable';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'page-home',
