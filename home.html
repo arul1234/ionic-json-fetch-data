@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-card *ngFor="let item of items">
+  <img src="{{item.thumbnailUrl}}"/>
+  <ion-card-content>
+    <ion-card-title>
+      
+      </ion-card-title>
+      {{item.title}} <br>
+  </ion-card-content>
+</ion-card>
+</ion-content>
